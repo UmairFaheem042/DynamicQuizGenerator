@@ -46,29 +46,27 @@ body {
   padding: 1rem;
   gap: 2rem;
 }
-.quizHeader{
+.quizHeader {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.category{
+.category {
   font-weight: 600 !important;
 }
 
-.question{
+.question {
   margin-top: 2rem;
   font-weight: 400 !important;
-  
 }
 
-.quizScore{
+.quizScore {
   font-weight: 600;
   color: gold;
-  
 }
 
-.quizHeader h5{
+.quizHeader h5 {
   font-size: 1rem;
 }
 
@@ -198,4 +196,15 @@ body {
 
 .quiz .btn {
   margin-top: 1rem;
+}
+
+.quiz .buttons {
+  display: flex;
+  gap: 1rem;
+  /* background-color: red; */
+}
+
+
+.quiz .buttons button{
+  flex: 1 ;
 }

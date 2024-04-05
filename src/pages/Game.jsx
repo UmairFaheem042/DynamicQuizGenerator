@@ -89,9 +89,11 @@ const Quiz = () => {
                   </div>
                 ))}
             </div>
-            <button className="btn" onClick={handleNextQuestion}>
-              Next Question
-            </button>
+            <div className="buttons">
+              <button className="btn" onClick={handleNextQuestion}>
+                Next Question
+              </button>
+            </div>
           </>
         ) : (
           <div>
